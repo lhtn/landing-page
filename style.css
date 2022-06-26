@@ -1,0 +1,19 @@
+.header {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.right-side {
+    
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
