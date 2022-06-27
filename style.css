@@ -1,26 +1,22 @@
 body {
     display: flex;
     flex-direction: column;
-    font-family: 'Times New Roman', Times, serif;
 }
 
 .first-panel-content,
 .footer {
-    display: flex;
-    flex-flow: column wrap;
-    align-items: center;
     background-color: #1F2937;
 }
 
 .header {
     display: flex;
-    gap: 680px;
+    justify-content: center;
+    margin: auto;
+    gap: 860px;
     padding: 60px;
 }
 
 .logo {
-    display: flex;
-    flex-flow: row wrap;
     font-size: 24px;
     font-weight: bold;
     color: #F9FAF8;
@@ -28,7 +24,6 @@ body {
 
 ul {
     display: flex;
-    justify-content: flex-end;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -45,11 +40,8 @@ a {
     display: flex;
     justify-content: center;
     margin: auto;
-    padding: 20px;
-}
-
-.about-box {
-    max-width: 500px;
+    padding: 0 20px;
+    margin-bottom: 100px;
 }
 
 h1 {
@@ -69,7 +61,7 @@ button {
     font-weight: bold;
     color: #E5E7EB;
     margin: 8px;
-    padding: 8px 20px;
+    padding: 8px 22px;
     border-radius: 8px;
     font-size: 18px;
 }
@@ -77,10 +69,8 @@ button {
 .about-dessert-image {
     border: 1px solid #ddd;
     border-radius: 8px;
-    max-width: 40%;
-    height: auto;
-    margin-left: 40px;
-    margin-bottom: 100px;
+    max-width: 500px;
+    margin-left: 100px;
 }
 
 h2 {
@@ -98,13 +88,10 @@ h2 {
     margin-bottom: 100px;
 }
 
-.top-picks-dessert {
-    max-width: 200px;
-}
-
+.top-picks-dessert,
 .dessert-image {
+    max-width: 200px;
     border-radius: 8px;
-    width: 200px;
 }
 
 .dessert-text {
@@ -113,9 +100,7 @@ h2 {
 
 .quote-section {
     display: flex;
-    flex-flow: column wrap;
     justify-content: center;
-    align-items: center;
     padding: 100px 0;
     margin-bottom: 100px;
     background-color: #E5E7EB;
@@ -141,13 +126,12 @@ h2 {
     border-radius: 8px;
     margin: auto;
     margin-bottom: 100px;
-    padding: 20px 200px;
+    padding: 20px 310px;
 }
 
 .sign-up-section {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
     gap: 150px;
 }
 
@@ -162,6 +146,7 @@ h2 {
 }
 
 .footer {
+    text-align: center;
     padding: 50px;
     font-size: 18px;
     color: #E5E7EB;
