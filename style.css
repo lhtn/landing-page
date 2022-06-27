@@ -1,19 +1,138 @@
-.header {
+.body {
     display: flex;
-    flex-flow: row wrap;
+    flex-direction: column;
 }
 
-.right-side {
-    
+.first-panel-content,
+.footer {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    background-color: #1F2937;
+}
+
+.header,
+.about-section {
+    max-width: 1500px;
+}
+
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.logo {
+    display: flex;
+    flex-flow: row wrap;
+    font-size: 24px;
+    font-weight: bold;
+    color: #F9FAF8;
 }
 
 ul {
     display: flex;
+    justify-content: flex-end;
     list-style-type: none;
     margin: 0;
     padding: 0;
+    padding-right: 100px;
+    gap: 50px;
+    font-size: 18px;
+    color: #F9FAF8;
 }
 
 a {
     text-decoration: none;
+}
+
+.about-section {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.about-box {
+    max-width: 500px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
+}
+
+.about-description {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button {
+    background-color: #3882F6;
+    font-weight: bold;
+    color: #E5E7EB;
+    margin: 8px;
+    padding: 8px 20px;
+}
+
+.about-dessert-image {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    max-width: 50%;
+    height: auto;
+    margin-left: 20px;
+    margin-bottom: 100px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1F2937;
+}
+
+.top-picks-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+    padding-bottom: 50px;
+}
+
+.top-picks-dessert {
+    max-width: 200px;
+}
+
+.dessert-image {
+    border-radius: 8px;
+    width: 200px;
+}
+
+.dessert-text {
+    text-align: center;
+}
+
+.quote-section {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0;
+    background-color: #E5E7EB;
+}
+
+.quote-box {
+    max-width: 50%;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+}
+
+.speaker {
+    text-align: end;
+    font-size: 25px;
+    font-weight: bold;
 }

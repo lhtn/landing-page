@@ -2,55 +2,67 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>The Bicycle Shop</title>
+        <title>The Ice Cream Shop</title>
         <link rel="stylesheet" href="style.css">
     </head>
 
     <body>
-        <div class="header">
-            <div class="left-side">The Ice Cream Shop</div>
-            <div class="right-side">
-                <ul>
-                    <li><a href="#">Menu</a></li>
-                    <li><a href="#">Location & Hours</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </div>
-        </div>
-        <div class="content">
-            <div class="first-section">
-                <h1>The Ice Cream Shop</h1>
-                <p>Locally made ice cream made with simple and high quality ingredients.</p>
-                <div class="button">
-                    <button>About us</button>
+        <div class="first-panel-content">
+            <div class="header">
+                <div class="logo">The Ice Cream Shop</div>
+                <div class="navigation">
+                    <ul>
+                        <li>Menu</li>
+                        <li>Location & Hours</li>
+                        <li>Contact</li>
+                     </ul>
                 </div>
-                <img src="./images/header-pic.jpeg" alt="picture of ice cream">
             </div>
-            <div class="second-section">
-                <h2>Our Top Picks</h2>
-                <div class="food">
-                    <div class="image">
-                        <img src="./images/dessert-1.jpeg" alt="picture of ice cream">
-                        <p>Coconut Strawberry Ice Cream</p>
-                        <img src="./images/dessert-2.jpeg" alt="picture of ice cream">
-                        <p>Raspberry Sorbet and Vanilla Bean Ice Cream</p>
-                        <img src="./images/dessert-3.jpeg" alt="picture of ice cream">
-                        <p>Chococolate Coffee Gelato</p>
-                        <img src="./images/dessert-4.jpeg" alt="picture of ice cream">
-                        <p>Ube Ice Cream</p>
+            <div class="about-section">
+                <div class="about-box">
+                    <h1>The Ice Cream Shop</h1>
+                    <div class="about-description">Small batch ice cream handcrafted in Toronto. Made with simple and high quality ingredients sourced locally.</div>
+                    <div class="button">
+                        <button>About us</button>
                     </div>
                 </div>
+                <img class="about-dessert-image" src="./images/about-dessert.jpeg" alt="picture of ice cream">
             </div>
-            <div class="third-section">
-                <p>"You can't buy happiness, but you can buy ice cream, and that is pretty much the same thing."</p>
-                <p>- An ice cream lover</p>
+        </div>
+        <h2>Our Top Picks</h2>
+        <div class="top-picks-section">
+            <div class="top-picks-dessert">
+                <img class="dessert-image" src="./images/dessert-1.jpeg" alt="picture of ice cream">
+                <div class="dessert-text">Coconut Vanilla Bean Ice Cream</div>
             </div>
-            <div class="fourth-section">
+            <div class="top-picks-dessert">
+                <img class="dessert-image" src="./images/dessert-2.jpeg" alt="picture of ice cream">
+                <div class="dessert-text">Raspberry Sorbet & Vanilla Ice Cream</div>
+            </div>
+            <div class="top-picks-dessert">    
+                <img class="dessert-image" src="./images/dessert-3.jpeg" alt="picture of ice cream">
+                <div class="dessert-text">Chocolate Coffee Gelato</div>
+            </div>
+            <div class="top-picks-dessert">
+                <img class="dessert-image" src="./images/dessert-4.jpeg" alt="picture of ice cream">
+                <div class="dessert-text">Ube Ice Cream</div>
+            </div>
+        </div>
+        <div class="quote-section">
+            <div class="quote-box">
+                <div class="quote">"You can't buy happiness, but you can buy ice cream, and that is pretty much the same thing."</div>
+                <div class="speaker">- An ice cream lover</div>
+            </div>
+        </div>
+        <div class="sign-up-section">
+            <button> 
                 <p>Sign up for our rewards card!</p>
                 <p>Collect points for free ice cream</p>
                 <button>Sign up</button>
-            </div>
+            </button>
         </div>
-        <div class="footer">Copyright &copy; The Odin Project 2022</div>
+        <div class="footer">
+            <div class="description">Copyright &copy; The Odin Project 2022</div>
+        </div>
     </body>
 </html>
